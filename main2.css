@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#history{
+  background-color: rgba(135, 134, 24, 0.6)
+}
+
+#attractions {
+  background-color: rgba(100, 29, 16, 0.607);
+}
+
+#romaria {
+  background-color: rgba(0,255, 0, 0.6);
+}
+header li{
+  display: inline;
+}
+
+header li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #030303;
+  padding: 8px;
+  font-weight: bold;
+}
+body > header{
+  padding: 55px;
+}
+
+.container {
+  width: 1366px;
+  margin:0 auto;
+}
+
+.container > h2{
+  margin: 14px 0 8px 0;
+  
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+header{
+  height: 180px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ad/Panoramico_Velho_Chico_em_Lapa.jpg);
+  opacity: 0.9;
+  margin-bottom: 0px;
+  
+}
+
+.atracoes img {
+  width: 33%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ }
+
+.romaria-fotos img{
+  width: 49%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.translate img{
+  width: 280px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  }
+.como-chegar-txt{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artefinal {
+  width: 400px;
+  align-items: center;
+}
+  #contact .container{
+    display: block;
+  }
+
+form input,
+form textarea,
+form button{
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  weight: 240px;
+}
+
+form button{
+  background-color:#0e5324 ;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: #16954b;
+}
+
+input:focus, textarea:focus{
+  outline-color: #0e5324;
+}
+
+footer{
+  background-color: #0e5324;
+  color: #ecf0f1;
+  padding: 16px 0
+}
